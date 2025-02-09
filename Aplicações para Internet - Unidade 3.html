@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <form action="/submit" method="post">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" required placeholder="Digite seu Nome Completo"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Digite seu email"><br><br>
+
+        <label for="data_nascimento">Data de Nascimento:</label>
+        <input type="date" id="data_nascimento"><br><br>
+
+        <label for="genero">Gênero:</label>
+        <input type="radio" id="masculino" name="genero" value="Masculino">
+        <label form="masculino">Masculino</label>
+        <input type="radio" id="feminino" name="genero" value="Feminino">
+        <label form="feminino">Feminino</label>
+        <input type="radio" id="outro" name="genero" value="Outro">
+        <label form="outro">Outro</label>
+        <br><br>
+
+        <label for="pais">Selecione seu País:</label>
+        <select id="pais">
+            <option value="Brasil">Brasil</option>
+            <option value="Uruguai">Uruguai</option>
+            <option value="Portugal">Portugal</option>
+        </select><br><br>
+        
+        <button type="submit">Enviar</button>
+    </form>    
+</body>
+</html>
