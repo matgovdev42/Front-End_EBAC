@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="processa_formulario.php" method="get">
+        <label for="nome"> Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+<p></p>
+        <label for="email"> E-Mail:</label>
+        <input type="email" id="email" name="Email" required
+        placeholder="email@exemplo.com">
+<p></p>
+        <input type="date" id="date" name="Data" required>
+<p></p>
+        <label for="assunto"> Assunto: </label>
+        <select id="assunto" name="assunto">
+            <option value="orçamento"> Orçamento</option>
+            <option value="outros"> Outros</option>
+        </select>
+<p></p>
+        <label for="msg"> Mensagem:</label>
+        <p></p>
+        <textarea id="msg" name="message" cols="25" rows="5">
+        </textarea>
+        <button type="submit"> Enviar</button>
+    </form>
+</body>
+</html>
