@@ -1,0 +1,72 @@
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS BODY */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    text-shadow: #2a2a2a 0.2px 0.5px 0.5px;
+    color: #2a2a2a;
+    background-color: #f9f9da;
+    background: linear-gradient(500deg,#daf9e5, #f9f9da);
+}
+
+/* CSS HEADER */
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 45px;
+    margin-top: 5PX;
+}
+
+header h3 {
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+/* CSS MAIN */
+
+main h2 {
+    text-align: center;
+}
+
+main ul li{
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: #2a2a2a 1px 1px 1px;
+    font-size: 20px;
+    border: 1px #2a2a2a;
+    border-radius: 8px;
+    box-shadow: 0 2px 9px;
+}
+
+/* CSS NAV */
+
+nav {
+    margin-top: 20px;
+    text-align: center;
+    text-shadow: #2a2a2a 1px 1px 1px;
+    font-size: 20px;
+    border: 1px #2a2a2a;
+    border-radius: 8px;
+    box-shadow: 0 2px 9px;
+}
+
+nav button {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 9px;
+    font-size: 18px;
+}
+
+nav button:hover {
+    color: #aaaaaa
+}

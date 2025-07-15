@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de IMC</h1>
+        <h3>Saiba se você está saúdavel por aqui!</h3>
+    </header>
+    <main>
+        <h2>Tabela do IMC</h2>
+        <ul> 
+            <li>IMC menor que 18.5 - Baixo peso</li>
+            <li>IMC entre 18.5 e 24.9 - Peso normal</li>
+            <li>IMC entre 25 e 29.9 - Sobrepeso</li>
+            <li>IMC entre 30 e 34.9 - Obesidade grau I</li>
+            <li>IMC entre 35 e 39.9 - Obesidade grau II</li>
+            <li>IMC maior que 40 - Obesidade grau III</li>
+        </ul>
+    </main>
+    <nav>
+        <p>Digite aqui seu Peso Atual em Kg</p>
+        <label for="peso">Peso Atual: </label>
+        <input type="number" id="peso"> 
+
+        <p>Digite aqui sua Altura Atual em Metros</p>
+        <label for="altura">Altura Atual: </label>
+        <input type="number" id="altura">
+
+        <p id="resultado"></p>
+        <p id="mensagem"></p>
+
+        <button onclick="calculadoraIMC()">Calcular IMC</button>
+    </nav>
+    <foote></foote>
+</body>
+</html>
